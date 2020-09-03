@@ -14,8 +14,8 @@ import (
 
 	"github.com/deepch/vdk/codec/h264parser"
 	"github.com/gin-gonic/gin"
-	"github.com/pion/webrtc/v2"
-	"github.com/pion/webrtc/v2/pkg/media"
+	"github.com/pion/webrtc"
+	"github.com/pion/webrtc/pkg/media"
 )
 
 func serveHTTP() {
